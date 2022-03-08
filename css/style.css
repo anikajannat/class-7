@@ -1,0 +1,150 @@
+/* Default CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed button */
+
+button{
+    width: 220px;
+    background-color: greenyellow;
+    padding: 15px 5px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Transition and Position */
+
+.container{
+    width: 600px;
+    height: 650px;
+    background-color: blue;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+/* 1st child */
+
+.item:nth-child(1) {
+    background-color: green;
+    transition: all 1s ease 0.1s;
+}
+.cat1:hover{
+    z-index: 1;
+    width: 350px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+/* 2nd child */
+
+.item:nth-child(2) {
+    background-color: yellowgreen;
+    top: 35px;
+    left: 35px;
+    transition: all 1s ease 0.1s;
+}
+
+.cat2:hover{
+    z-index: 2;
+    height: 450px;
+    background-color: blueviolet;
+    writing-mode: vertical-lr;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* 3rd child */
+
+.item:nth-child(3) {
+    background-color: snow;
+    top: 70px;
+    left: 70px;
+    transition: all 1s ease 0.1s;
+}
+.cat3:hover{
+    background-color: #61e826;
+    z-index: 3;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* 4th child */
+
+.item:nth-child(4) {
+    background-color: #1fd7e4;
+    top: 105px;
+    left: 105px;
+    transition: all 1s linear 0.2s;
+}
+.cat4:hover{
+    z-index: 4;
+    background-color: red;
+    height: 550px;
+    writing-mode: vertical-lr;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/* 5th child */
+
+.item:nth-child(5) {
+    background-color: #e61111;
+    top: 150px;
+    left: 150px;
+    transition: all 1s ease-in 0.2s;
+}
+.cat5:hover{
+    background-color: khaki;
+    z-index: 5;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+/* 6th child */
+
+.item:nth-child(6) {
+    background-color: #e61111;
+    top: 150px;
+    left: 150px;
+    transition: all 1s ease-in 0.2s;
+}
+.cat6:hover{
+    background-color: khaki;
+    z-index: 6;
+    width: 450px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
